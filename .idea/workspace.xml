@@ -206,11 +206,6 @@
       <change afterPath="$PROJECT_DIR$/../../Mobile Programming/unitled/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Mobile Programming/unitled/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Mobile Programming/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Week 2/echoClient.c" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Week 2/echoServer.c" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../NewApplication/.idea/.gitignore" afterDir="false" />
@@ -8459,6 +8454,9 @@
       <change afterPath="$PROJECT_DIR$/../../../wso2is-7.0.0/tmp/bundles_info_725044a8-c5ef-4c43-bdf5-68d8b96e482c/bundles.info" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../wso2is-7.0.0/updates/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../wso2is-7.0.0/updates/product.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -8473,7 +8471,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -8489,14 +8490,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/Semester 2024.1/Network Programming Lab/Project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/testWordGuess/WordGuess&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -8571,7 +8575,15 @@
       <workItem from="1735137205809" duration="1250000" />
       <workItem from="1735176931157" duration="1378000" />
       <workItem from="1735179289889" duration="2396000" />
-      <workItem from="1735184652421" duration="300000" />
+      <workItem from="1735184652421" duration="2934000" />
+      <workItem from="1735204727755" duration="2364000" />
+      <workItem from="1735234122497" duration="1898000" />
+      <workItem from="1735405024031" duration="1037000" />
+      <workItem from="1735443001212" duration="1926000" />
+      <workItem from="1735458487879" duration="7428000" />
+      <workItem from="1735556318557" duration="1634000" />
+      <workItem from="1735560607437" duration="7802000" />
+      <workItem from="1735610657684" duration="10000" />
     </task>
     <servers />
   </component>

@@ -227,6 +227,8 @@ public class Client {
         String content = null;
         String[] parts;
         String[] header;
+        String fileName = null;
+        Map<String,Boolean> countDownloadFile = new LinkedHashMap<>();
         boolean attachedFile;
 
 
@@ -289,7 +291,7 @@ public class Client {
                 for (String part : parts) {
                     if (part.contains("Content-Disposition: attachment") && part.contains("Content-Transfer-Encoding: base64")) {
                         // Lấy tên file từ Content-Disposition
-                        String fileName = null;
+
                         if (part.contains("filename=\"")) {
                             fileName = part.split("filename=\"")[1].split("\"")[0];
                         } else {
@@ -299,48 +301,61 @@ public class Client {
 
                         // Lấy nội dung Base64
                         String base64Content;
-                        String[] mimeParts = part.split("filename=\"", 2)[1].split("\"")[1].split("--boundary123",2);
-                        //System.out.println("1233333333333"+ Arrays.toString(mimeParts));
+                        String[] mimeParts = part.split("filename=\"", 2)[1].trim().split("\"");
                         if (mimeParts.length == 2) {
-                            base64Content = mimeParts[0].replaceAll("\n","").trim();
-                            //System.out.println(base64Content);
+                            base64Content = mimeParts[1].replaceAll("\n","");
+                            base64Content = base64Content.replaceAll("--boundary123--","").trim();
                         } else {
                             System.out.println("Không tìm thấy nội dung mã hóa.");
                             continue;
                         }
-                        Path directory;
+                        Path directory = null;
                         do {
                             // Yêu cầu người dùng nhập thư mục lưu file
-                            System.out.print("Nhập thư mục lưu trữ: ");
+                            System.out.print("Nhập thư mục lưu trữ cho file "+fileName+" ( bỏ trống nếu không muốn tải file này ): ");
                             String directoryPath = scanner.nextLine();
-                            directory = Paths.get(directoryPath);
-                            if (Files.exists(directory) && Files.isDirectory(directory) && Files.isWritable(directory)) {
+                            directoryPath = directoryPath.trim();
+                            if (!directoryPath.isEmpty()) {
+                                directory = Paths.get(directoryPath);
+                                if (Files.exists(directory) && Files.isDirectory(directory) && Files.isWritable(directory)) {
+                                    countDownloadFile.put(fileName,true);
+                                    break;
+                                }
+                                else {
+                                    System.out.println("Dường dẫn lưu file "+fileName+" không hợp lệ ! Yêu cầu nhập lại.");
+                                }
+                            } else {
+                                countDownloadFile.put(fileName,false);
                                 break;
-                            }
-                            else {
-                                System.out.println("Dường dẫn đến file "+fileName+" không hợp lệ ! Yêu cầu nhập lại.");
                             }
                         }
                         while (true);
 
-                        // Xác định đường dẫn đầy đủ cho file
-                        outputPath = directory.resolve(fileName);
+                        if (countDownloadFile.get(fileName)) {
+                            // Xác định đường dẫn đầy đủ cho file
+                            outputPath = directory.resolve(fileName);
 
-                        // Giải mã và lưu file
-                        try {
-                            byte[] fileBytes = Base64.getDecoder().decode(base64Content);
-                            java.nio.file.Files.write(outputPath, fileBytes);
+                            // Giải mã và lưu file
+                            try {
+                                byte[] fileBytes = Base64.getDecoder().decode(base64Content);
+                                java.nio.file.Files.write(outputPath, fileBytes);
 
-                        } catch (IllegalArgumentException e) {
-                            System.out.println("Dữ liệu Base64 không hợp lệ: " + e.getMessage());
-                        } catch (IOException e) {
-                        System.out.println("Lỗi khi lưu file: " + e.getMessage());
+                            } catch (IllegalArgumentException e) {
+                                System.out.println("Dữ liệu Base64 không hợp lệ: " + e.getMessage());
+                            } catch (IOException e) {
+                                System.out.println("Lỗi khi lưu file: " + e.getMessage());
+                            }
+                            System.out.println("Đã tải file " +fileName+ "vào " + outputPath);
                         }
                     }
                 }
-                serverOutput.println("DELE "+emailId);
-                serverInput.readLine();
-                System.out.println("Đã tải file đính kèm vào " + outputPath + " và xóa mail có ID: " +emailId + " khỏi hộp thư.");
+                if (!countDownloadFile.containsValue(true)) {
+                    System.out.println("Vì không downloads tệp đính kèm nào nên không xóa email này khỏi hộp thư !");
+                } else {
+                    serverOutput.println("DELE "+emailId);
+                    serverInput.readLine();
+                    System.out.println("Đã xóa mail có ID: " +emailId + " khỏi hộp thư !");
+                }
             }
         }
 
@@ -356,6 +371,7 @@ public class Client {
     private void inputEmailContent(StringBuilder emailContent) {
         String line;
         serverOutput.println("Content-Type: text/plain; charset=UTF-8");
+        serverOutput.println("Content-Transfer-Encoding: 7bit");
         serverOutput.println();
         System.out.println("Nhập nội dung email (gõ 'END' khi kết thúc): ");
         while (!(line = scanner.nextLine()).equals("END")) {
