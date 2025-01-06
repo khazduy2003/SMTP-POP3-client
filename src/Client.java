@@ -7,6 +7,7 @@ import java.util.*;
 public class Client {
 
     private static final String SERVER = "localhost"; // Địa chỉ POP3 Server
+    private static final String ipv4Client = "192.168.124.244"; // Địa chỉ Client
     private static final int PORT_POP3 = 110;              // Cổng POP3
     private static final int PORT_SMTP = 25;
     private Socket socket;
@@ -87,7 +88,8 @@ public class Client {
                 }
             }
         } catch (IOException e) {
-            System.err.println("Lỗi: " + e.getMessage());
+            //System.out.println("Lỗi: " + e.getMessage());
+            System.out.println("Đã thoát chương trình.");
         }
     }
 
@@ -387,7 +389,7 @@ public class Client {
         String line;
 
         // Gửi EHLO để kiểm tra kết nối
-        serverOutput.println("EHLO localhost");
+        serverOutput.println("EHLO "+ipv4Client); // IPv4 of Wireless LAN Adapter
         String response = serverInput.readLine();
         if (response.startsWith("-ERR")) {
             System.out.println("Không thể kết nối đến SMTP Server");
@@ -436,6 +438,8 @@ public class Client {
                 }
                 System.out.print("File không tồn tại. Hãy nhập lại đường dẫn file đính kèm: ");
                 filePaths = scanner.nextLine();
+                filePaths = filePaths.trim();
+                filePathes = filePaths.split(" ", 0);
             }
             // Header MIME multipart
             serverOutput.println("MIME-Version: 1.0");

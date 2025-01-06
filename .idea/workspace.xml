@@ -5,99 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc6ea477-9071-4403-b033-b19ff7aface9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../COI/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/.idea/libraries/COI_Checker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Checker.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/COI_Implement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/CheckAction.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/ConflictChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/OtherUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/RBAC.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/RoleBasedAccessControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/SwingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/motatxt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/AccessControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/COI_Implement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/CheckAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/ConflictChecker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/RBAC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/Role1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/RoleBasedAccessControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/SwingApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/motatxt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/COI_Implement/role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/out/production/COI_Implement/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/COI_Implement/swing.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/MOT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/.idea/libraries/COI_Checker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Checker.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/AccessControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/COI_Implement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/CheckAction.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/ConflictChecker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/RBAC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/Role1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/RoleBasedAccessControl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/RoleConflicts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/SwingApp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/motatxt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/out/production/COI_Implement/COI_Implement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/out/production/COI_Implement/COI_Implement/COI_Implement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/COI_Implement/role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/MOT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/out/production/COI/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../COI/output.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../IT Skills/MyFirstWebsite/node_modules/encoding/node_modules/iconv-lite/.idea/iconv-lite.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../28c8a68f3ce60caf01d439232c8d0561_1294608336052774174.webp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Mobile Programming/.idea/.gitignore" afterDir="false" />
@@ -8454,7 +8370,6 @@
       <change afterPath="$PROJECT_DIR$/../../../wso2is-7.0.0/tmp/bundles_info_725044a8-c5ef-4c43-bdf5-68d8b96e482c/bundles.info" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../wso2is-7.0.0/updates/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../wso2is-7.0.0/updates/product.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
     </list>
@@ -8492,7 +8407,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/testWordGuess/WordGuess&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/Semester 2024.1/Network Programming Lab/Project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -8584,6 +8499,13 @@
       <workItem from="1735556318557" duration="1634000" />
       <workItem from="1735560607437" duration="7802000" />
       <workItem from="1735610657684" duration="10000" />
+      <workItem from="1735611272405" duration="2626000" />
+      <workItem from="1735614906345" duration="4748000" />
+      <workItem from="1735628586704" duration="4300000" />
+      <workItem from="1735648847762" duration="3580000" />
+      <workItem from="1735697349173" duration="555000" />
+      <workItem from="1736115330191" duration="479000" />
+      <workItem from="1736140749128" duration="1983000" />
     </task>
     <servers />
   </component>
